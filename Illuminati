@@ -1,0 +1,21 @@
+-- Made By Pious_Galaxy (Calvin Leafman) For Skeletal servers (Please Don't Remove)
+TEAM_ILLUMINATI = DarkRP.createJob("ILLUMINATI Member", {
+   color = Color(0, 0, 0, 255),
+   model = {"models/player/breen.mdl"},
+   description = [[You are  high class, kidnap higher up officials and buy them out so that they become corrupt and work for you (Just like real life)]],
+   weapons = {"weapon_cuff_tactical"},
+   command = "/illuminati",
+   max = 2,
+   salary = 60,
+   admin = 0,
+   vote = true,
+   hasLicense = true,
+   candemote = true,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "",
+})
